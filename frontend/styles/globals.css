@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  background: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  user-select: none;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner{
+  border: 10px solid #1a1a1a;
+  border-top: 10px solid #5a4ae3; 
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  animation: spin 2s linear infinite;
+}

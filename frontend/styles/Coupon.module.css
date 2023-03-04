@@ -1,0 +1,85 @@
+.main_page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 56px 0 0 240px;
+}
+
+.page_container {
+    flex: 1;
+}
+
+.coupon_container {
+    margin: 3em 0 0 3em;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    background-color: #28292A;
+    border: 0.4em solid #5a4ae3;
+    height: 15.6em;
+}
+
+.coupon_container hr{
+    width: 94%;
+    margin: 0.2em 1.7em;
+    height: 0.1em;
+    border:none;
+  background-color: #d4d7db;
+}
+
+.coupon_form {
+    display: flex;
+    width: 100%;
+    padding: 1em 1.7em;
+}
+
+.top_text {
+    color: #5a4ae3;
+    font-size: 1.7em;
+    font-weight: 700;
+    padding: 0.3em 1em;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.coupon_input {
+    font-size: 18px;
+    font-weight: 700;
+    border-style: none;
+    overflow: visible;
+    width: 80%;
+    padding: 10px 16px;
+    border: 1px solid #d4d4d4;
+}
+
+.form_submit {
+    background: #5a4ae3;
+    margin-left: 0.5em;
+    width: 20%;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.form_submit:hover{
+    filter:opacity(70%);
+}
+
+.coupon_info{
+    color:white;
+    font-size: 16px;
+    margin: 0.6em 1.7em;
+}
+
+.coupon_warning{
+    color:red;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 1.7em;
+}
+
+.coupon_success{
+    color:#5a4ae3;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0 1.2em;
+}

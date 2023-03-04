@@ -1,0 +1,77 @@
+.main_page{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 56px 0 0 240px;
+}
+
+.page_container{
+    flex:1;
+}
+.spinner_container{
+    display:flex;
+    margin-top: 18%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spinner_container h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container{
+    padding: 0 40px 32px 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.container h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 50px 0 18px;
+}
+
+.container hr{
+    border:none;
+    height:1.2px;
+    width:100%;
+    background-color: rgb(27, 28, 29);
+}
+
+.selector_container{
+    height: 60px;
+    margin: 24px 0 0 0;
+}
+.movie_tv_selector{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.active_button, .inactive_button{
+    border-radius: 24px;
+    font-size: 15px;
+    height:100%;
+    padding: 8px 16px;
+    margin: 0px 8px 0px 0px;
+    font-weight: 400;
+}
+
+.active_button{
+    background: white;
+    color: black;
+}
+
+.inactive_button{
+    background: black;
+    color: #84868d;
+    border: 2px solid #2e2f31;
+}
+
+.inactive_button:hover{
+    filter:opacity(70%);
+}

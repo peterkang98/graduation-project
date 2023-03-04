@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  episode_number: 1
+  episode_title: MyString
+  duration: 1
+  video_path: MyString
+
+two:
+  episode_number: 1
+  episode_title: MyString
+  duration: 1
+  video_path: MyString

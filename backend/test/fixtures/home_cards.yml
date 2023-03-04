@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content_id: 
+  playlist_id: 1
+  card_title: MyString
+  card_subtitle{50}: MyString
+  card_description: MyString
+
+two:
+  content_id: 
+  playlist_id: 1
+  card_title: MyString
+  card_subtitle{50}: MyString
+  card_description: MyString

@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content_id: 1
+  original_title: MyString
+  korean_title: MyString
+  overview: MyText
+  poster_path: MyString
+  backdrop_path: MyString
+  maturity_rating: MyString
+  is_a_movie: false
+  release_date: 2022-04-06
+  average_rating: 9.99
+  rating_count: 1
+  has_related_video: false
+
+two:
+  content_id: 1
+  original_title: MyString
+  korean_title: MyString
+  overview: MyText
+  poster_path: MyString
+  backdrop_path: MyString
+  maturity_rating: MyString
+  is_a_movie: false
+  release_date: 2022-04-06
+  average_rating: 9.99
+  rating_count: 1
+  has_related_video: false

@@ -1,0 +1,244 @@
+.desc_container {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 40px 30px 40px;
+}
+
+.desc_container img {
+  position: relative;
+  vertical-align: top;
+  width: 172.8px;
+  height: 256px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin: 90px 40px 0 0;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc h1 {
+  font-size: 64px;
+  font-weight: 900;
+  color: white;
+  margin: 0;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  color: #babac1;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.avg_rating {
+  margin: 0 0 0 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.bar {
+  background: rgba(255, 255, 255, 0.2);
+  width: 1px;
+  height: 12px;
+  margin: 0 12px;
+}
+
+.maturity_rating {
+  font-size: 14px;
+  font-weight: 900;
+  color: white;
+  background-color: #2e2f31;
+  height: 20px;
+  padding: 1px 6px 1px 5px;
+  line-height: 18px;
+  border-radius: 3px;
+}
+
+.overview {
+  max-width: 600px;
+  margin: 5px 0 0;
+  color: #babac1;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.buttons_container {
+  border-top: 1px solid #1b1c1d;
+  border-bottom: 1px solid #1b1c1d;
+}
+
+.button_wrapper {
+  display: flex;
+  position: relative;
+  padding: 16px 40px;
+  justify-content: space-between;
+  color: white;
+}
+
+.play_rate_container {
+  display: flex;
+}
+
+.play_container {
+  display: flex;
+  background: #5a4ae3;
+  padding: 9px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.rate_button:hover {
+  background: #4d4d4d;
+}
+
+.play_rate_container div span,
+.play_rate_container button span,
+.button_wrapper button span {
+  padding: 0 0 0 6px;
+}
+
+.rate_button {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 9px 16px;
+  cursor: pointer;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  align-items: center;
+  margin: 0 0 0 12px;
+}
+
+.but_container {
+  display: flex;
+  position:relative;
+}
+
+.seasons_button span {
+  text-align: left;
+  width: 110px;
+}
+
+.seasons_button {
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 9px 15px;
+  cursor: pointer;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.watch_later_button {
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 9px 16px;
+  cursor: pointer;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.watch_later_button:hover,
+.seasons_button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.drop_down {
+  position: absolute;
+  top: 45px;
+  left: -96px;
+  width: 250px;
+  height: auto;
+  display: block;
+  z-index: 4;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background: #28292a;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.menu_button {
+  padding: 0px 16px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  height: 45px;
+  width: 100%;
+  text-align: left;
+}
+
+.menu_button:hover {
+  background-color: #333436;
+}
+
+.info_tabs {
+  display: flex;
+  justify-content: center;
+  background: black;
+  margin: 0px 0px 24px;
+}
+.grey_tab,
+.cur_tab {
+  background: black;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 14px 20px;
+  position: relative;
+}
+.grey_tab {
+  color: #4f5152;
+}
+.cur_tab {
+  color: white;
+}
+.cur_tab::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 2px;
+}
+
+.stars_container{
+  background: #28292a;
+  display: flex;
+  position:absolute;
+  top:3.8em;
+  left:9.9em;
+  width:17em;
+  height:7em;
+  padding: 2em 1.7em;
+  border-radius: 6px;
+  z-index:4;
+}
+
+.stars{
+  overflow: hidden;
+  width:21px
+}

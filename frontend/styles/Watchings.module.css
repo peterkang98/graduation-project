@@ -1,0 +1,36 @@
+.main_page{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 56px 0 0 240px;
+}
+
+.page_container{
+    flex:1;
+}
+
+.spinner_container{
+    display:flex;
+    margin-top: 18%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spinner_container h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container{
+    padding: 0 40px 60px 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.title{
+    color:white;
+    font-size: 2.6em;
+    font-weight: 900;
+    margin:0 0 1em 0;
+}

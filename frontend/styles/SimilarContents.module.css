@@ -1,0 +1,15 @@
+.sec_container {
+    width: 100%;
+    margin: 0;
+    padding: 0 40px 50px 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.sec_container h2{
+    color:white;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    letter-spacing: -1px;
+}

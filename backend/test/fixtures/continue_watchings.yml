@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  episode_id: 
+  movie_id: 
+  resume_time: 9.99
+
+two:
+  user_id: 
+  episode_id: 
+  movie_id: 
+  resume_time: 9.99

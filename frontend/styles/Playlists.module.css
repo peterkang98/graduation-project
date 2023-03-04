@@ -1,0 +1,31 @@
+.desc_container {
+    display: flex;
+    padding: 0 40px 20px 40px;
+    background-color: #2e2f31;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.desc p {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.contents_container {
+    border-top: 1px solid #d4d7db;
+    padding: 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
