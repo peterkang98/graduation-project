@@ -34,7 +34,8 @@
   ![image](https://user-images.githubusercontent.com/101819709/223164785-61792b0c-b0ac-4b7c-b531-6ecb78063128.png)
   - 배속 재생\
   ![image](https://user-images.githubusercontent.com/101819709/223165265-8a6f91d9-9a79-48b4-9ef4-d6e7102e4a65.png)
-  - 탐색 구간에서 썸네일 미리보기
+  - 탐색 구간에서 썸네일 미리보기\
+  ![image](https://user-images.githubusercontent.com/101819709/223189722-f15f76e8-ccf1-494f-b540-0acb2b2a9b9f.png)
 -	비슷한 콘텐츠 보기
 - 콘텐츠 검색\
 ![image](https://user-images.githubusercontent.com/101819709/223167319-17fb9083-ea4e-4ed2-8ca3-5aa67e80af2d.png)
@@ -42,4 +43,24 @@
 ![image](https://user-images.githubusercontent.com/101819709/223159729-45fa32c9-80d0-4a20-b893-32b956016d4f.png)
 -	쿠폰 사용\
 ![image](https://user-images.githubusercontent.com/101819709/223167497-4df3e87c-bbb9-431d-aeb6-b9c8d90a16ca.png)
-
+## 웹사이트 플로우 차트
+![web flow (1)](https://user-images.githubusercontent.com/101819709/223176419-1afeb888-d753-450d-8d01-6851b7fe4443.png)
+## 개체 관계도
+![image](https://user-images.githubusercontent.com/101819709/223184761-a08aaab0-94b6-404e-aee4-246f342e70eb.png)
+## 사용된 기술
+- Next.js 12.1.4
+  - Libraries
+    - React 18.0.0
+    - Shaka Player 3.1.6
+    - React Query 3.39.2
+    - Axios 0.26.1
+- Ruby on Rails 7.0.2.3
+  - Ruby 2.7.5
+  - Gems
+    - Devise 4.8.1
+    - Devise-JWT 0.9.0
+    - MiniMagick 4.11.0
+    - Streamio FFMPEG 3.0.2
+- PostgreSQL 14.2
+- Shaka Packager 2.6.1
+- FFmpeg 5.0
