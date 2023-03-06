@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.6.1-634af65-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT3S" type="static" mediaPresentationDuration="PT7227.29150390625S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="audio" lang="en" subsegmentAlignment="true">
+      <Representation id="0" bandwidth="106592" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>the_social_network_audio.mp4</BaseURL>
+        <SegmentBase indexRange="826-29777" timescale="48000">
+          <Initialization range="0-825"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="800" frameRate="12288/512" subsegmentAlignment="true" par="12:5">
+      <Representation id="1" bandwidth="922127" codecs="avc1.4d401e" mimeType="video/mp4" sar="852:853" width="854" height="356">
+        <BaseURL>the_social_network_480.mp4</BaseURL>
+        <SegmentBase indexRange="892-9251" timescale="12288">
+          <Initialization range="0-891"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="1140016" codecs="avc1.4d401f" mimeType="video/mp4" sar="1599:1600" width="1280" height="534">
+        <BaseURL>the_social_network_720.mp4</BaseURL>
+        <SegmentBase indexRange="892-9251" timescale="12288">
+          <Initialization range="0-891"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="1459747" codecs="avc1.4d4028" mimeType="video/mp4" sar="1:1" width="1920" height="800">
+        <BaseURL>the_social_network_1080.mp4</BaseURL>
+        <SegmentBase indexRange="871-9230" timescale="12288">
+          <Initialization range="0-870"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

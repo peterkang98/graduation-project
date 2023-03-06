@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.6.1-634af65-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT3S" type="static" mediaPresentationDuration="PT1281.7083740234375S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="audio" lang="en">
+      <Representation id="0" bandwidth="141122" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>HIMYM_S1_E3_480_audio.mp4</BaseURL>
+        <SegmentBase indexRange="826-5993" timescale="44100">
+          <Initialization range="0-825"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="348013" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>HIMYM_S1_E3_1080_audio.mp4</BaseURL>
+        <SegmentBase indexRange="826-5993" timescale="48000">
+          <Initialization range="0-825"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="1080" frameRate="12288/512" subsegmentAlignment="true" par="16:9">
+      <Representation id="2" bandwidth="1002502" codecs="avc1.6e001e" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <BaseURL>HIMYM_S1_E3_480.mp4</BaseURL>
+        <SegmentBase indexRange="891-6058" timescale="12288">
+          <Initialization range="0-890"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="1741982" codecs="avc1.6e001f" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+        <BaseURL>HIMYM_S1_E3_720.mp4</BaseURL>
+        <SegmentBase indexRange="870-6037" timescale="12288">
+          <Initialization range="0-869"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="2549022" codecs="avc1.6e0028" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
+        <BaseURL>HIMYM_S1_E3_1080.mp4</BaseURL>
+        <SegmentBase indexRange="871-6038" timescale="12288">
+          <Initialization range="0-870"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
