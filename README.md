@@ -1,6 +1,11 @@
 # 졸업작품
-![Logo](/frontend/public/logo.png)\
-졸업작품으로 제출한 OTT 웹 애플리케이션입니다. 백엔드는 Ruby on Rails로 작성하였고, 프론트엔드는 Next.js로 작성했습니다. 웹 호스팅은 하지 않았고 프론트엔드의 디자인 부분은 시중에 있는 OTT 서비스들로부터 아이디어를 많이 얻었습니다. 전부 처음 사용해보는 프레임워크였고, 첫 개인 프로젝트였기 때문에 미숙한 점들이 많습니다. 백엔드에 있는 동영상 파일을 제외하고 모두 올렸습니다.
+![Logo](/frontend/public/logo.png)
+- 졸업작품으로 제출한 OTT 웹 애플리케이션입니다. 
+- 백엔드는 Ruby on Rails로 작성하였고, 프론트엔드는 Next.js로 작성했습니다.
+- 동영상 스트리밍의 기술인 Adaptive Bitrate Streaming을 구현하기 위해서 MPEG-DASH(Dynamic Adaptive Streaming Over HTTP) 프로토콜을 사용했습니다.
+- 웹 호스팅은 하지 않았고 프론트엔드의 디자인 부분은 시중에 있는 OTT 서비스들로부터 아이디어를 많이 얻었습니다. 
+- 전부 처음 사용해보는 프레임워크였고, 첫 개인 프로젝트였기 때문에 미숙한 점들이 많습니다. 
+- 백엔드에 있는 동영상 파일을 제외하고 모두 올렸습니다.
 ## 스크린샷
 - 메인 페이지
 ![image](https://user-images.githubusercontent.com/101819709/223084459-3504768b-f6eb-44dc-92a9-a8339a03ccf9.png)
@@ -22,7 +27,7 @@
   ![image](https://user-images.githubusercontent.com/101819709/223159247-4c8498f4-c2ff-4560-b008-e1a4bcb6598c.png)
   - 콘텐츠 연령 제한
 - 동영상 플레이어
-  - 인터넷 속도를 감안한 자동 화질 변경
+  - 인터넷 속도를 감안한 자동 화질 변경 (MPEG-DASH 포맷의 영상을 재생)
   - 사용자의 이어보기 기록 반영
   - 오프닝, 크레딧 건너뛰기\
   ![image](https://user-images.githubusercontent.com/101819709/223161523-4c0fe0de-dd26-41e2-a32a-a40b2f706639.png)
@@ -51,16 +56,19 @@
 - Next.js 12.1.4
   - Libraries
     - React 18.0.0
-    - Shaka Player 3.1.6
-    - React Query 3.39.2
+    - Shaka Player 3.1.6 -> MPEG-DASH 포맷의 영상을 재생하는 플레이어
+    - React Query 3.39.2 -> 백엔드 서버에 HTTP 요청
     - Axios 0.26.1
 - Ruby on Rails 7.0.2.3
   - Ruby 2.7.5
   - Gems
-    - Devise 4.8.1
-    - Devise-JWT 0.9.0
-    - MiniMagick 4.11.0
+    - Devise 4.8.1 -> 회원 관리 기능
+    - Devise-JWT 0.9.0 -> Devise의 확장 Gem으로 회원 인증을 JWT(JSON Web Token)으로 할 수 있는 기능 제공
+    - MiniMagick 4.11.0 -> 웹에서 찾은 이미지 파일을 백엔드에 저장
     - Streamio FFMPEG 3.0.2
 - PostgreSQL 14.2
-- Shaka Packager 2.6.1
-- FFmpeg 5.0
+  - pgAdmin 4 (v6.4)
+- Shaka Packager 2.6.1 -> 동영상 정보 기반으로 DASH 매니페스트 파일 생성
+- FFmpeg 5.0  -> 동영상 파일을 DASH 포맷으로 인코딩
+- Insomnia 2022.6.0 -> 백엔드 API 기능 테스트
+- Visual Paradigm 16.3 -> E-R 다이어그램 작성
